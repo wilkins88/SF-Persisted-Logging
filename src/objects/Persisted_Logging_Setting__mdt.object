@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Activation configuration for various features of persisted logging</description>
+    <fields>
+        <fullName>Enable_Error_Logging__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Activation switch for error logging via factories</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Activation switch for error logging via factories</inlineHelpText>
+        <label>Enable Error Logging</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Performance_Logging__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Activation switch for performance logging</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Activation switch for performance logging</inlineHelpText>
+        <label>Enable Performance Logging</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Scheduler_CRON_String__c</fullName>
+        <description>CRON String used to schedule log cleanup batch</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>CRON String used to schedule log cleanup batch</inlineHelpText>
+        <label>Scheduler CRON String</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Persisted Logging Setting</label>
+    <pluralLabel>Persisted Logging Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

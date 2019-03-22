@@ -1,2 +1,2 @@
-# SF-Advanced-Logging
-Classes and configurations for advanced logging in Salesforce
+# SF-Persisted-Logging
+Classes and configuration for persisted logging in Salesforce

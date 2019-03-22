@@ -8,7 +8,7 @@ public without sharing class Logging  {
 	private static final String NO_LOGGING_LEVEL = 'Logging level must be provided.';
 	/** Error message for not providing a required exception */
 	@TestVisible
-	private static final	String NO_EXCEPTION = 'No Exception instance provided to ErrorLogger.';
+	private static final String NO_EXCEPTION = 'No Exception instance provided to ErrorLogger.';
 	/** Error for when the cron string isn't appropriately set in custom metadata */
 	@TestVisible
 	private static final String NO_CRON_STRING = 'CRON not set in Persisted Logging Setting.';

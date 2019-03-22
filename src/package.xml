@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Log__c</members>
+        <members>Persisted_Logging_Setting__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Logging</members>
+        <members>Logging_Test</members>
+        <members>LogCleanupBatch</members>
+        <members>LogCleanupBatch_Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Persisted_Logging_Setting.Persisted_Logging_Setting</members>
+        <name>CustomMetadata</name>
+    </types>
+    <version>45.0</version>
+</Package>
