@@ -34,11 +34,6 @@ public without sharing class Logging  {
 	public abstract class Logger  {
 		/** optional value for specifying which class called the logger */
 		protected String stackTrace;
-		/**
-		* @description default constructor
-		*/
-		@TestVisible 
-		protected Logger() {}
 
 		/**
 		* @description sets the calling class to be logged as the stack trace
@@ -98,12 +93,6 @@ public without sharing class Logging  {
 	* @description abstract class for loggers that persist records in SF
 	*/ 
 	public abstract class PersistedLogger extends Logger {
-		/**
-		* @description default constructor
-		*/ 
-		@TestVisible
-		private PersistedLogger() {}
-
 		/**
 		* @description See Logger
 		*/ 
@@ -191,11 +180,6 @@ public without sharing class Logging  {
 	* @description base logger factory class that should be extended
 	*/ 
 	public abstract class LoggerFactory {
-		/**
-		* @description default constructor
-		*/ 
-		public LoggerFactory() {}
-
 		/**
 		* @description primary public facing method for generating loggers from factories
 		* will return the approriate persisted logger if persisted logging is turned on
